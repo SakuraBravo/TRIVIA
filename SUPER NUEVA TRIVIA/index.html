@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> Trivia Laboratoria </title>
+    <!---->
+    <link rel="stylesheet" type="text/css" href="format.css">
+  </head>
+  <body>
+    <script type="text/javascript" src="app.js"></script>
+    <header>
+      <div>
+        <h1>PREGUNTADOS</h1>
+        <form>
+        <input type="button" value="INICIO" onclick="introducirNombre()">
+        </form>
+        <section id="name"></section>
+      </div>
+      <nav>
+        <ul>
+          <li>Categoria</li>
+          <li>Categoria</li>
+          <li>Tecnología</li>
+          <li>Categoria</li>
+        </ul>
+      </nav>
+    </header>
+    <div>
+      <h2>Trivia</h2>
+    </div>
+    <div>
+      <h3>Respuestas Correctas</h3>
+      <p id="zona2-1"></p>
+      <p id="zona2-2"></p>
+      <p id="zona2-3"></p>
+    </div>
+    <div>
+      <h4>Respuestas Incorrectas</h4>
+      <p id="zona3-1"></p>
+      <p id="zona3-2"></p>
+      <p id="zona3-3"></p>
+    </div>
+      <p id="zona5"></p>
+      <section id="default"></section>
+  </body>
+  <footer>
+    <form>
+      <!--Botón para refrescar la página-->
+      <input type="button" value="Fin del TEST" onclick="javascript:window.location.reload();"/>
+    </form>
+  </footer>
+</html>

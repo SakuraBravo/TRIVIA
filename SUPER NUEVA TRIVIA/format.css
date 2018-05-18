@@ -1,0 +1,19 @@
+body{
+  background: #e6e6e6;
+}
+header div{
+  background: #fff;
+  width: 100%;
+}
+header nav{
+  background: #528FD5;
+  display: flow-root;
+}
+input{
+  float: right;
+}
+li{
+  display: inline-block;
+  float: center;
+
+}
